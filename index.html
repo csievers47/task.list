@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task List</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+<body>
+    <header>
+        <h1>My Task List</h1>
+        <form id="new-task-form">
+            <input type="text" 
+            id="new-task-input"
+            placeholder="What up?">
+            <input
+            type="submit"
+            id="new-task-submit"
+            value="Add Task"/>
+        
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+            <div id="tasks">
+
+                <div class="task">
+                    <input type="text"
+                    class="text"
+                    value="My to do"
+                    readonly
+
+                    />
+                </div>
+                <div class="actions">
+                    
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="sript.js"></script>
+</body>
+</html>
